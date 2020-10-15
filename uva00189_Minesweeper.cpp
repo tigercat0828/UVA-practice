@@ -85,8 +85,6 @@ int main() {
         mineList.clear();
         // load 
         LoadGrid(mineList, TokenGird, height, width);
-        PrintGrid(TokenGird, height, width);
-
         // calc
         CalcMineSum(mineList, MineGrid, height, width);
         // output
